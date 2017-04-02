@@ -1,0 +1,26 @@
+{
+  "name": "browser-do",
+  "version": "0.1.0",
+  "description": "A clone of GNOME DO and Kupfer (desktop apps) but for the browser",
+  "author": "David Salazar <davidjsalazarmoreno@gmail.com>",
+  "repository": {
+    "url": "git@github.com:davidjsalazarmoreno/browser-do.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js --progress",
+    "watch": "node_modules/webpack/bin/webpack.js --progress --watch"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.25.0",
+    "fs-extra": "^0.30.0",
+    "html-webpack-plugin": "2.24.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^2.3.2",
+    "write-file-webpack-plugin": "3.4.2"
+  }
+}
